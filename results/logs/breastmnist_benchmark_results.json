@@ -1,0 +1,353 @@
+{
+  "dataset": "breastmnist",
+  "dataset_name": "BreastMNIST",
+  "n_classes": 2,
+  "n_train": 546,
+  "n_test": 156,
+  "pca_summary": {
+    "n_components": 8,
+    "feature_range": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "total_explained_variance": 0.728696346282959,
+    "explained_variance_ratio": [
+      0.31332749128341675,
+      0.15152671933174133,
+      0.07214090973138809,
+      0.06373172253370285,
+      0.04306734353303909,
+      0.03442918509244919,
+      0.029908958822488785,
+      0.02056397683918476
+    ]
+  },
+  "kernel_results": {
+    "global": {
+      "effective_rank": 107.16630724542472,
+      "effective_rank_ratio": 0.19627528799528338,
+      "spectral_entropy": 4.674381901150983,
+      "kta": 0.05050274799620372,
+      "offdiag_mean": 0.08775244574634188,
+      "offdiag_var": 0.017152302426635246,
+      "offdiag_std": 0.1309667989478068,
+      "concentration_index": 1.7656775745094229,
+      "best_C": 10.0,
+      "accuracy": 0.7756410256410257,
+      "balanced_accuracy": 0.681077694235589,
+      "macro_f1": 0.6928270042194093,
+      "weighted_f1": 0.7664394677052905,
+      "confusion_matrix": [
+        [
+          20,
+          22
+        ],
+        [
+          13,
+          101
+        ]
+      ]
+    },
+    "local_1qubit": {
+      "effective_rank": 3.593957511737486,
+      "effective_rank_ratio": 0.00658233976508697,
+      "spectral_entropy": 1.2792539662930134,
+      "kta": 0.05832737925561399,
+      "offdiag_mean": 0.7276130499308419,
+      "offdiag_var": 0.012496849074182357,
+      "offdiag_std": 0.11178930661821979,
+      "concentration_index": 1.9031994751677273,
+      "best_C": 50.0,
+      "accuracy": 0.782051282051282,
+      "balanced_accuracy": 0.5952380952380952,
+      "macro_f1": 0.5951145038167939,
+      "weighted_f1": 0.7220904286553141,
+      "confusion_matrix": [
+        [
+          8,
+          34
+        ],
+        [
+          0,
+          114
+        ]
+      ]
+    },
+    "local_2qubit": {
+      "effective_rank": 7.569153352569229,
+      "effective_rank_ratio": 0.01386291822814877,
+      "spectral_entropy": 2.0240812187333908,
+      "kta": 0.05633354899107689,
+      "offdiag_mean": 0.5338707416492816,
+      "offdiag_var": 0.027674997590298244,
+      "offdiag_std": 0.16635804035362475,
+      "concentration_index": 1.5579124082638818,
+      "best_C": 50.0,
+      "accuracy": 0.8076923076923077,
+      "balanced_accuracy": 0.6578947368421052,
+      "macro_f1": 0.6823241922345914,
+      "weighted_f1": 0.774431379101485,
+      "confusion_matrix": [
+        [
+          14,
+          28
+        ],
+        [
+          2,
+          112
+        ]
+      ]
+    },
+    "local_4qubit": {
+      "effective_rank": 22.776277564800587,
+      "effective_rank_ratio": 0.04171479407472635,
+      "spectral_entropy": 3.125719536624371,
+      "kta": 0.05461700890996425,
+      "offdiag_mean": 0.29301081251280275,
+      "offdiag_var": 0.03518326666994086,
+      "offdiag_std": 0.18757203061741604,
+      "concentration_index": 1.4536638399534176,
+      "best_C": 10.0,
+      "accuracy": 0.7307692307692307,
+      "balanced_accuracy": 0.6052631578947368,
+      "macro_f1": 0.6132231404958678,
+      "weighted_f1": 0.7116338207247298,
+      "confusion_matrix": [
+        [
+          14,
+          28
+        ],
+        [
+          14,
+          100
+        ]
+      ]
+    },
+    "multiscale": {
+      "effective_rank": 39.359220653758626,
+      "effective_rank_ratio": 0.07208648471384364,
+      "spectral_entropy": 3.6727302715245713,
+      "kta": 0.057434990258545794,
+      "offdiag_mean": 0.31081159369781175,
+      "offdiag_var": 0.019671021647689028,
+      "offdiag_std": 0.14025341937966798,
+      "concentration_index": 1.7061730836784494,
+      "best_C": 10.0,
+      "accuracy": 0.7692307692307693,
+      "balanced_accuracy": 0.6691729323308271,
+      "macro_f1": 0.6811265046559164,
+      "weighted_f1": 0.7584863467216408,
+      "confusion_matrix": [
+        [
+          19,
+          23
+        ],
+        [
+          13,
+          101
+        ]
+      ]
+    },
+    "hierarchical": {
+      "effective_rank": 22.530714832799397,
+      "effective_rank_ratio": 0.041265045481317576,
+      "spectral_entropy": 3.1148794819834125,
+      "kta": 0.05860405080531231,
+      "offdiag_mean": 0.41056176245981696,
+      "offdiag_var": 0.020068184793417775,
+      "offdiag_std": 0.14166222076975138,
+      "concentration_index": 1.6974919085216966,
+      "best_C": 10.0,
+      "accuracy": 0.782051282051282,
+      "balanced_accuracy": 0.662907268170426,
+      "macro_f1": 0.680327868852459,
+      "weighted_f1": 0.7635561160151324,
+      "confusion_matrix": [
+        [
+          17,
+          25
+        ],
+        [
+          9,
+          105
+        ]
+      ]
+    },
+    "global_entangled": {
+      "effective_rank": 107.16630724542472,
+      "effective_rank_ratio": 0.19627528799528338,
+      "spectral_entropy": 4.674381901150983,
+      "kta": 0.050502747996203724,
+      "offdiag_mean": 0.08775244574634188,
+      "offdiag_var": 0.01715230242663525,
+      "offdiag_std": 0.1309667989478068,
+      "concentration_index": 1.7656775745094229,
+      "best_C": 10.0,
+      "accuracy": 0.7756410256410257,
+      "balanced_accuracy": 0.681077694235589,
+      "macro_f1": 0.6928270042194093,
+      "weighted_f1": 0.7664394677052905,
+      "confusion_matrix": [
+        [
+          20,
+          22
+        ],
+        [
+          13,
+          101
+        ]
+      ]
+    },
+    "local_2qubit_entangled": {
+      "effective_rank": 5.2350740627617816,
+      "effective_rank_ratio": 0.009588047733995938,
+      "spectral_entropy": 1.6553809918368996,
+      "kta": 0.04037005363387878,
+      "offdiag_mean": 0.6408702214859703,
+      "offdiag_var": 0.018356903588847822,
+      "offdiag_std": 0.1354876510566473,
+      "concentration_index": 1.7362005730087495,
+      "best_C": 50.0,
+      "accuracy": 0.7435897435897436,
+      "balanced_accuracy": 0.531328320802005,
+      "macro_f1": 0.4900294213795358,
+      "weighted_f1": 0.6559961777353082,
+      "confusion_matrix": [
+        [
+          3,
+          39
+        ],
+        [
+          1,
+          113
+        ]
+      ]
+    },
+    "multiscale_entangled": {
+      "effective_rank": 35.04646689698773,
+      "effective_rank_ratio": 0.06418766830950134,
+      "spectral_entropy": 3.556674806601974,
+      "kta": 0.0519520126807973,
+      "offdiag_mean": 0.36431133361615614,
+      "offdiag_var": 0.014241875155757545,
+      "offdiag_std": 0.11933932778324816,
+      "concentration_index": 1.84643282557389,
+      "best_C": 10.0,
+      "accuracy": 0.7692307692307693,
+      "balanced_accuracy": 0.6691729323308271,
+      "macro_f1": 0.6811265046559164,
+      "weighted_f1": 0.7584863467216408,
+      "confusion_matrix": [
+        [
+          19,
+          23
+        ],
+        [
+          13,
+          101
+        ]
+      ]
+    },
+    "classical_rbf": {
+      "effective_rank": null,
+      "effective_rank_ratio": null,
+      "kta": null,
+      "offdiag_mean": null,
+      "offdiag_var": null,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.6785714285714286,
+      "macro_f1": 0.6799074025359079,
+      "weighted_f1": 0.7490398274319988,
+      "best_C": 50.0,
+      "confusion_matrix": [
+        [
+          22,
+          20
+        ],
+        [
+          19,
+          95
+        ]
+      ]
+    },
+    "classical_linear": {
+      "effective_rank": null,
+      "effective_rank_ratio": null,
+      "kta": null,
+      "offdiag_mean": null,
+      "offdiag_var": null,
+      "accuracy": 0.7692307692307693,
+      "balanced_accuracy": 0.5714285714285714,
+      "macro_f1": 0.5568181818181819,
+      "weighted_f1": 0.6984265734265734,
+      "best_C": 10.0,
+      "confusion_matrix": [
+        [
+          6,
+          36
+        ],
+        [
+          0,
+          114
+        ]
+      ]
+    }
+  },
+  "alpha_sweep": {
+    "alphas": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      1.0
+    ],
+    "balanced_accuracy": [
+      0.6578947368421052,
+      0.6929824561403508,
+      0.6929824561403508,
+      0.6691729323308271,
+      0.6766917293233082,
+      0.681077694235589,
+      0.681077694235589
+    ],
+    "accuracy": [
+      0.8076923076923077,
+      0.782051282051282,
+      0.782051282051282,
+      0.7692307692307693,
+      0.7692307692307693,
+      0.7756410256410257,
+      0.7756410256410257
+    ],
+    "kta": [
+      0.05633354899107689,
+      0.05714278346433581,
+      0.0578645411097526,
+      0.057434990258545794,
+      0.054828497413725745,
+      0.052388129666450706,
+      0.05050274799620372
+    ],
+    "effective_rank": [
+      7.569153352569229,
+      11.683271626804913,
+      19.462759891840232,
+      39.359220653758626,
+      69.73697036665293,
+      92.17210540128114,
+      107.16630724542472
+    ],
+    "offdiag_var": [
+      0.027674997590298244,
+      0.025635381864051968,
+      0.02298735252879921,
+      0.019671021647689028,
+      0.01772600494696771,
+      0.01721722573312157,
+      0.017152302426635246
+    ]
+  },
+  "elapsed_seconds": 9.208561420440674
+}
